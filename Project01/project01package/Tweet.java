@@ -5,13 +5,13 @@ import java.util.ArrayList;
 public class Tweet {
 	private long id;
 	private String user;
-	private ArrayList<String> tweet;
+	private String tweet;
+	private int polarity;
 	
-	public Tweet(long id, String user) {
+	public Tweet(long id, String user, String tweet, int polarity) {
 		id = id;
 		user = user;
-		
-		tweet = new ArrayList<String>();
+		tweet = tweet;
 	}
 	
 	public long getID(long id) {
