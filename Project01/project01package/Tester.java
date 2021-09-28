@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 public class Tester {
-	public static void main() {
+	public static void main(String[] args) {
 		ArrayList<Tweet> myTweets = null;
 		Tweets trainingTweets = new Tweets();
 		String fileNameTraining = "TrainingTweets.txt";
